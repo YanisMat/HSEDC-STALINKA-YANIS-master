@@ -44,7 +44,7 @@ h1 {
   color: white;
 	border-right: .1em solid black;
 	width: calc(0.55em * 14);
-	width: 14ch;
+	width: 35ch;
 	white-space: nowrap;
 	overflow: hidden;
 	-webkit-animation: typing 5s steps(14, end),
@@ -581,7 +581,7 @@ li.selected .cd-project-title,
 
 .cd-project-info {
   display: none;
-  padding: 4em 0;
+  /*padding: 4em 0;*/
   background-color: #ffffff;
   color: #7d7c7b;
 }
