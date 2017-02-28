@@ -1,8 +1,9 @@
 .pulse {
-  margin-right: 33%;
-  position: relative;
-  top: 16vh;
   z-index: 1;
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  right: 80%;
 }
 .pulse:before, .pulse:after {
   content: '';
