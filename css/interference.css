@@ -1,0 +1,35 @@
+/*помех*/
+.test {
+  position: relative;
+  width:100vw;
+  height:100vh;
+  background: url(https://espngrantland.files.wordpress.com/2015/01/marilyn-manson-2015.jpg) 50% 50% / cover;
+  overflow: hidden;
+}
+
+.test::before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  right:0;
+  background-image: linear-gradient(
+    rgba(0,0,0,.5) 0px,
+    rgba(0,0,0,0) 2px,
+    rgba(0,0,0,.7) 3px
+  );
+  background-size: 100% 4px;
+  animation: .43s interference infinite ease-in-out alternate;
+    transform-origin:0 0%;
+}
+
+
+@keyframes interference {
+  to {
+    transform-origin:0 100%;
+    transform: scale(1.15)
+  }
+}
+
+/*конец помех*/
