@@ -1,0 +1,178 @@
+body {
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+
+}
+
+.wrap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #345;
+}
+
+.left {
+  position: absolute;
+  width: 50%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.right {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: #101010;
+  overflow: hidden;
+}
+.right .h3 {
+  left: -100%;
+  color: #fff;
+}
+
+.h3 {
+  width: 200%;
+  text-align: center;
+  position: absolute;
+  top: 42%;
+  color: #101010;
+  white-space: nowrap;
+  font-size: 5rem;
+  -webkit-animation: width-anim 3s 3s infinite alternate both;
+          animation: width-anim 3s 3s infinite alternate both;
+          z-index: 1;
+}
+
+
+
+
+h4 {
+  margin: 20px;
+}
+
+.wrap_h {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #345;
+}
+
+.left_h {
+  position: absolute;
+  width: 50%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.right_h {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: #101010;
+  overflow: hidden;
+}
+.right_h .h4 {
+  left: -100%;
+  color: #fff;
+}
+
+.h4 {
+  width: 200%;
+  text-align: center;
+  position: absolute;
+  top: 42%;
+  color: #101010;
+  white-space: nowrap;
+  font-size: 5rem;
+  -webkit-animation: width-anim 1.42s 2.42s infinite alternate both;
+          animation: width-anim 1.42s 2.42s infinite alternate both;
+}
+
+
+
+
+
+h2 {
+  margin: 10px;
+}
+
+.wrap_hh {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #345;
+}
+
+.left_hh {
+  position: absolute;
+  width: 50%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.right_hh {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: #101010;
+  overflow: hidden;
+}
+.right_hh .h2 {
+  left: -100%;
+  color: #fff;
+}
+
+.h2 {
+  width: 200%;
+  text-align: center;
+  position: absolute;
+  top: 42%;
+  color: #101010;
+  white-space: nowrap;
+  font-size: 5rem;
+  -webkit-animation: width-anim 1.42s 2.42s infinite alternate both;
+          animation: width-anim 1.42s 2.42s infinite alternate both;
+          z-index: 1;
+}
+
+
+
+
+
+
+
+@-webkit-keyframes width-anim {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 300%;
+  }
+}
+
+@keyframes width-anim {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 300%;
+  }
+}
