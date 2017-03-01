@@ -22,21 +22,35 @@
   width: 12px;
   margin-right: 3px;
 }
+
+.github {
+  position: absolute;
+  top: 130px;
+  right: 9%;
+  height: 12px;
+  width: 12px;
+  margin-right: 3px;
+}
 svg,
 .facebook,
-.behance {
+.behance,
+.github {
   display: inline-block;
   width: 70px;
   height: 70px;
   padding: 18px;
 }
 .face,
-.beha
+.beha,
+.gith
  {
   fill: #000000;
 }
 .face :hover {
   fill: #3b5998;
+}
+.gith :hover {
+  fill: #000;
 }
 
 /* Gradients  */
