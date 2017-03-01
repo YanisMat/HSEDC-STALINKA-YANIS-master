@@ -1,0 +1,60 @@
+
+.socialIcons {
+  /*width: 600px;
+  height: 150px;*/
+}
+
+.facebook {
+  position: absolute;
+  top: 50px;
+  right: 9%;
+  height: 12px;
+  width: 12px;
+  margin-right: 3px;
+
+}
+
+.behance {
+  position: absolute;
+  top: 90px;
+  right: 9%;
+  height: 12px;
+  width: 12px;
+  margin-right: 3px;
+}
+svg,
+.facebook,
+.behance {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  padding: 18px;
+}
+.face,
+.beha
+ {
+  fill: #000000;
+}
+.face :hover {
+  fill: #3b5998;
+}
+
+/* Gradients  */
+.beha :hover {
+  background: -webkit-linear-gradient(top, #0197f8 0%, #005cff 100%);
+  background: linear-gradient(to bottom, #0197f8 0%, #005cff 100%);
+}
+
+.behance .beha-hover {
+  display: none;
+}
+.behance:hover .beha {
+  display: none;
+}
+.behance:hover .beha-hover {
+  display: inline-block;
+}
+
+.svg-hide {
+  display: none;
+}

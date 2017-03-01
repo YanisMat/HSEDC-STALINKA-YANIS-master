@@ -1,0 +1,95 @@
+@import 'nib'
+
+body
+  background-color #708090
+
+.socialIcons
+  width 600px
+  height 150px
+  margin 0 auto
+  
+svg
+.facebook, .twitter, .linkedin, .vimeo, .codepen, .behance, .pinterest, .soundcloud, .github, .stackoverflow
+  display inline-block
+  width 64px
+  height 64px
+  padding 18px
+ // Intial colors of the icons. Change to required color
+ .face, .twit, .link, .code, .vime, .pint, .gith, .stac, .beha, .soun
+   fill #4A1600
+  
+// Hover states for the icons. These are the brand calours of the networks.
+// Behance and Soundcloud are gradients. Browser glitch. Check the other PEN.
+
+.face
+  :hover
+    fill #3B5998
+    
+.twit
+  :hover
+    fill #00ACEE
+    
+.link
+  :hover
+    fill #007FB2
+
+.code
+  :hover
+    fill black
+    
+.vime
+  :hover
+    fill #1AB7EA
+
+.pint
+  :hover
+    fill #CA1F27
+    
+.gith
+  :hover
+    fill black
+
+/* Gradients  */
+.beha
+  :hover
+    background linear-gradient(top, #0197f8 0%, #005cff 100%) 
+    
+.soun
+  :hover
+    background linear-gradient(top, #f79810 0%,#f8310e 100%)
+
+/* Hover states for complex designs. */
+
+// Stackoverflow
+.stackoverflow .stac-hover
+  display none
+
+.stackoverflow:hover .stac
+  display none
+
+.stackoverflow:hover .stac-hover
+  display inline-block
+
+// Behance
+.behance .beha-hover
+  display none
+
+.behance:hover .beha
+  display none
+ 
+.behance:hover .beha-hover
+  display inline-block
+
+// Soundcloud
+
+.soundcloud .soun-hover
+  display none
+ 
+.soundcloud:hover .soun
+  display none
+
+.soundcloud:hover .soun-hover
+  display inline-block
+
+.svg-hide 
+  display none
